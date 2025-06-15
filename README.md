@@ -1,4 +1,5 @@
 # KuzuMem-MCP
+[![smithery badge](https://smithery.ai/badge/@jezweb/kuzumem-mcp)](https://smithery.ai/server/@jezweb/kuzumem-mcp)
 
 A TypeScript implementation of a distributed memory bank as an MCP (Model Context Protocol) tool, storing memories in a **KùzuDB graph database** with repository and branch filtering capabilities. Branch isolation is achieved by using a graph-unique identifier for entities, enabling a centralized memory bank while allowing repository-specific and branch-specific views. Fully compliant with MCP specification for seamless integration with IDEs and AI agents.
 
@@ -39,6 +40,15 @@ For detailed tool documentation, see [Unified Tools Documentation](docs/unified-
 
 ## Installation
 
+### Installing via Smithery
+
+To install kuzumem-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@jezweb/kuzumem-mcp):
+
+```bash
+npx -y @smithery/cli install @jezweb/kuzumem-mcp --client claude
+```
+
+### Manual Installation
 ```bash
 # Clone the repository
 git clone git@github.com:Jakedismo/KuzuMem-MCP.git
